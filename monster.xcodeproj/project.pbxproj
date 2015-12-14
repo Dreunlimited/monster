@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4CF1A21C1E5FFD004B0935 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CF1A11C1E5FFD004B0935 /* DragImg.swift */; };
+		AF4CF1A41C1E65B1004B0935 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CF1A31C1E65B1004B0935 /* MonsterImg.swift */; };
 		AF92C45F1C1E19B40016C5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92C45E1C1E19B40016C5C7 /* AppDelegate.swift */; };
 		AF92C4611C1E19B40016C5C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92C4601C1E19B40016C5C7 /* ViewController.swift */; };
 		AF92C4641C1E19B40016C5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92C4621C1E19B40016C5C7 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4CF1A11C1E5FFD004B0935 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		AF4CF1A31C1E65B1004B0935 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		AF92C45B1C1E19B40016C5C7 /* monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF92C45E1C1E19B40016C5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF92C4601C1E19B40016C5C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				AF92C4651C1E19B40016C5C7 /* Assets.xcassets */,
 				AF92C4671C1E19B40016C5C7 /* LaunchScreen.storyboard */,
 				AF92C46A1C1E19B40016C5C7 /* Info.plist */,
+				AF4CF1A11C1E5FFD004B0935 /* DragImg.swift */,
+				AF4CF1A31C1E65B1004B0935 /* MonsterImg.swift */,
 			);
 			path = monster;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4CF1A41C1E65B1004B0935 /* MonsterImg.swift in Sources */,
+				AF4CF1A21C1E5FFD004B0935 /* DragImg.swift in Sources */,
 				AF92C4611C1E19B40016C5C7 /* ViewController.swift in Sources */,
 				AF92C45F1C1E19B40016C5C7 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +490,7 @@
 				AF92C4851C1E19B50016C5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF92C4861C1E19B50016C5C7 /* Build configuration list for PBXNativeTarget "monsterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				AF92C4881C1E19B50016C5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF92C4891C1E19B50016C5C7 /* Build configuration list for PBXNativeTarget "monsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				AF92C48B1C1E19B50016C5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
