@@ -47,9 +47,9 @@ class ViewController: UIViewController {
     func startTimer() {
         if timer != nil {
             timer.invalidate()
-        }else {
-            timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: "changeGameState", userInfo: nil, repeats: true)
         }
+            timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: "changeGameState", userInfo: nil, repeats: true)
+        
     }
     
     
@@ -105,6 +105,7 @@ class ViewController: UIViewController {
     func gameOver() {
         timer.invalidate()
         monsterImage.playDeathAnimation()
+        print("game over")
     }
     
     func itemDroppedOnCharacter(notif: AnyObject) {
